@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>JS Calculator</title>
+    <link rel="stylesheet" href="./dist/css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="calculator">
+        <div class="cal-header">
+          <div class="theme-switch-wrapper">
+            <label for="checkbox" class="theme-switch">
+              <input type="checkbox" name="checkbox" id="checkbox" />
+              <div class="slider round"></div>
+            </label>
+          </div>
+        </div>
+        <div class="cal-body">
+          <div>
+            <h1 id="output">0</h1>
+            <p id="input"></p>
+          </div>
+        </div>
+        <div class="cal-footer">
+          <div class="operator"><span>C</span></div>
+          <div class="operator"><span>AC</span></div>
+          <div class="operator"><span>%</span></div>
+          <div class="operator"><span>/</span></div>
+          <div class="num"><span>7</span></div>
+          <div class="num"><span>8</span></div>
+          <div class="num"><span>9</span></div>
+          <div class="operator"><span>*</span></div>
+          <div class="num"><span>4</span></div>
+          <div class="num"><span>5</span></div>
+          <div class="num"><span>6</span></div>
+          <div class="operator"><span>-</span></div>
+          <div class="num"><span>1</span></div>
+          <div class="num"><span>2</span></div>
+          <div class="num"><span>3</span></div>
+          <div class="operator"><span>+</span></div>
+          <div class="num"><span>0</span></div>
+          <div class="num"><span>00</span></div>
+          <div class="num"><span>.</span></div>
+          <div class="operator-dark"><span>=</span></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/6.2.2/math.min.js"></script>
+    <script src="./dist/js/calculator.js"></script>
+  </body>
+</html>
